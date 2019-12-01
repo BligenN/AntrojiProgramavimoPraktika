@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Background"
+    android:background="@drawable/background_gradient"
     android:orientation="vertical">
 
     <androidx.appcompat.widget.AppCompatButton
@@ -11,7 +11,7 @@
         android:layout_width="250dp"
         android:layout_height="75dp"
         android:layout_margin="10dp"
-        android:background="@drawable/bg_rounded5_white"
+        android:background="@drawable/bg_rounded5_complimentary"
         android:text="@string/Shop"
         android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/button_shopping_cart"
@@ -25,7 +25,7 @@
         android:layout_width="250dp"
         android:layout_height="75dp"
         android:layout_margin="10dp"
-        android:background="@drawable/bg_rounded5_white"
+        android:background="@drawable/bg_rounded5_complimentary"
         android:text="@string/ShoppingCart"
         android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/button_logout"
@@ -38,7 +38,7 @@
         android:layout_width="250dp"
         android:layout_height="75dp"
         android:layout_margin="10dp"
-        android:background="@drawable/bg_rounded5_white"
+        android:background="@drawable/bg_rounded5_complimentary"
         android:text="@string/Logout"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
