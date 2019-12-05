@@ -5,7 +5,7 @@ import androidx.room.*
 @Dao
 interface ItemDAO {
 
-    @Query("select * from LoginEntity")
+    @Query("select * from ItemEntity")
     suspend fun getItems(): List<ItemEntity>
 
     @Insert (onConflict = OnConflictStrategy.REPLACE)

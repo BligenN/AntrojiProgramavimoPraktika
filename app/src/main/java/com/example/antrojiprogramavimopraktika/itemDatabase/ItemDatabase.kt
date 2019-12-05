@@ -5,7 +5,7 @@ import androidx.room.RoomDatabase
 import com.example.antrojiprogramavimopraktika.loginDatabase.LoginEntity
 
 @Database(
-    entities = [LoginEntity::class],
+    entities = [ItemEntity::class],
     version = 1
 )
 abstract class ItemDatabase : RoomDatabase() {

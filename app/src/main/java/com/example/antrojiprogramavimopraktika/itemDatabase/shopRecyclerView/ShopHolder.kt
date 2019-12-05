@@ -1,6 +1,6 @@
-package com.example.android_party.serverDisplay.recyclerView
+package com.example.antrojiprogramavimopraktika.itemDatabase.shopRecyclerView
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 
-class MyHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
+class ShopHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
