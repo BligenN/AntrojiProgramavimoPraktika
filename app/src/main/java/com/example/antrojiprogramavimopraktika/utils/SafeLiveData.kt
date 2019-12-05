@@ -1,4 +1,4 @@
-package com.example.android_party.utils
+package com.example.antrojiprogramavimopraktika.utils
 
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData

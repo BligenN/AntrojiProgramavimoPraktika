@@ -1,6 +1,7 @@
-package com.example.android_party.loginDisplay.loginDatabase
+package com.example.antrojiprogramavimopraktika.loginDatabase
 
 import androidx.room.*
+import com.example.antrojiprogramavimopraktika.loginDatabase.LoginEntity
 
 @Dao
 interface LoginDAO {
@@ -10,7 +11,4 @@ interface LoginDAO {
 
     @Insert (onConflict = OnConflictStrategy.REPLACE)
     suspend fun saveLogin(login: LoginEntity)
-
-    @Query("DELETE FROM LoginEntity")
-    suspend fun deleteAll()
 }

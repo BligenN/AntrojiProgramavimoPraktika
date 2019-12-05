@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6DB0A1"
+    android:background="@drawable/background_gradient"
     android:orientation="vertical">
 
     <androidx.appcompat.widget.AppCompatEditText
@@ -58,7 +58,7 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_margin="10dp"
-        android:background="@drawable/bg_rounded5_white"
+        android:background="@drawable/bg_rounded20_complimentary"
         android:text="@string/LoginButton"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"

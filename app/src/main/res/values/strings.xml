@@ -10,4 +10,14 @@
     <string name="Shop">Shop</string>
     <string name="ShoppingCart">Shopping cart</string>
     <string name="ManageItems">Manage items</string>
+
+    <string name="RegisterButton">Register</string>
+    <string name="RepeatPassword">Repeat password</string>
+    <string name="CancelButton">Cancel</string>
+
+    <string name="PriceRange">Price range</string>
+    <string name="PriceMin">Min (€)</string>
+    <string name="PriceMax">Max (€)</string>
+
+    <string name="CheckoutButton">Check out</string>
 </resources>

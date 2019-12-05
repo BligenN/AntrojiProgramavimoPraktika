@@ -1,4 +1,4 @@
-package com.example.android_party.loginDisplay.loginDatabase
+package com.example.antrojiprogramavimopraktika.loginDatabase
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -6,5 +6,7 @@ import androidx.room.PrimaryKey
 @Entity
 data class LoginEntity(
     @PrimaryKey
-    var token: String = ""
+    var username: String = "",
+
+    var password: String = ""
 )

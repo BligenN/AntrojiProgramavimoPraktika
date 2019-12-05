@@ -1,4 +1,4 @@
 package com.example.antrojiprogramavimopraktika
 
-class ResultActivityViewModel {
+class App {
 }

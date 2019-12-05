@@ -1,4 +1,4 @@
-package com.example.antrojiprogramavimopraktika.menu
+package com.example.antrojiprogramavimopraktika.register
 
 class RegisterFragmentViewModel {
 }

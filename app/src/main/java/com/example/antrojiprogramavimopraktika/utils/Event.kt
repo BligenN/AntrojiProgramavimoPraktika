@@ -1,4 +1,4 @@
-package com.example.android_party.utils
+package com.example.antrojiprogramavimopraktika.utils
 
 /**
  * Used as a wrapper for data that is exposed via a LiveData that represents an event.
